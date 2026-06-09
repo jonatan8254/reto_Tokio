@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\joui8\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python.terminal.activateEnvironment": false,
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\joui8\\AppData\\Local\\Programs\\Python\\Python313;${env:PATH}"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (No Profile)": {
+      "source": "PowerShell",
+      "args": ["-NoLogo", "-NoProfile"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (No Profile)"
+}
