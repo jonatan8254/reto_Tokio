@@ -18,6 +18,7 @@ __pycache__/
 
 # Official competition data
 competition.zip
+*.zip
 data/input/*.csv
 
 # Outputs

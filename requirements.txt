@@ -6,3 +6,6 @@ jupyter
 ipykernel
 pyyaml
 joblib
+pypdf
+pymupdf
+pdfplumber
