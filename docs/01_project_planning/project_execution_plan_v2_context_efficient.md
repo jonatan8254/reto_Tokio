@@ -1,4 +1,4 @@
-# Reto Tokio — Integrated Execution Plan v2
+﻿# Reto Tokio — Integrated Execution Plan v2
 
 **Version:** 2.0  
 **Purpose:** Context-efficient, audit-ready workflow for the GCI World NFL Draft Prediction competition.  
@@ -156,12 +156,12 @@ Research should be converted into compact notes before Codex uses it.
 Recommended files:
 
 ```text
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
-docs/research_notes_feature_engineering.md
-docs/research_notes_tabular_models.md
-docs/research_notes_hpo.md
-docs/research_notes_reproducibility.md
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
+docs/04_research/research_notes_feature_engineering.md
+docs/04_research/research_notes_tabular_models.md
+docs/04_research/research_notes_hpo.md
+docs/04_research/research_notes_reproducibility.md
 ```
 
 Evidence note format:
@@ -475,8 +475,8 @@ Verify official course PDFs with local PDF tools if needed.
 ### Outputs
 
 ```text
-docs/challenge_brief.md
-docs/submission_checklist.md
+docs/00_project_contract/challenge_brief.md
+docs/00_project_contract/submission_checklist.md
 ```
 
 ### Exit criteria
@@ -603,8 +603,8 @@ Codex may read these because they are official and directly relevant:
 notebooks/_official/baseline_original.ipynb
 references/course_materials/tutorials/competition_tutorial.pdf
 references/course_materials/notes/GCI_sesion7.pdf
-docs/challenge_brief.md
-docs/submission_checklist.md
+docs/00_project_contract/challenge_brief.md
+docs/00_project_contract/submission_checklist.md
 ```
 
 No book/paper reading is needed unless a specific baseline issue appears.
@@ -674,8 +674,8 @@ Codex can use course slides if needed, but should not read long books by default
 ```text
 references/course_materials/slides/lec3_slides.pdf
 references/course_materials/slides/lec4_slides.pdf
-docs/challenge_brief.md
-docs/submission_checklist.md
+docs/00_project_contract/challenge_brief.md
+docs/00_project_contract/submission_checklist.md
 ```
 
 ChatGPT may prepare compact EDA/data-contract notes from books if needed.
@@ -723,7 +723,7 @@ Document only structural and EDA findings.
 
 ```text
 notebooks/02_eda_and_data_contract.ipynb
-docs/experiment_notes.md updated
+docs/03_eda/experiment_notes.md updated
 outputs/figures/EDA figures if useful
 ```
 
@@ -806,7 +806,7 @@ strategic-compact
 ```text
 Use ChatGPT to synthesize long sources into compact research notes.
 Let Codex read only the compact research notes unless targeted source verification is approved.
-Create docs/research_notes_*.md.
+Create docs/04_research/research_notes_*.md.
 Convert research into actionable modeling decisions.
 Document risks and validation methods.
 ```
@@ -814,13 +814,13 @@ Document risks and validation methods.
 ### Outputs
 
 ```text
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
-docs/research_notes_feature_engineering.md
-docs/research_notes_tabular_models.md
-docs/research_notes_hpo.md
-docs/research_notes_reproducibility.md
-docs/experiment_notes.md updated
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
+docs/04_research/research_notes_feature_engineering.md
+docs/04_research/research_notes_tabular_models.md
+docs/04_research/research_notes_hpo.md
+docs/04_research/research_notes_reproducibility.md
+docs/03_eda/experiment_notes.md updated
 ```
 
 ### Exit criteria
@@ -852,10 +852,10 @@ Convert rules + EDA + evidence notes into an executable modeling plan.
 Use compact sources:
 
 ```text
-docs/challenge_brief.md
-docs/submission_checklist.md
-docs/experiment_notes.md
-docs/research_notes_*.md
+docs/00_project_contract/challenge_brief.md
+docs/00_project_contract/submission_checklist.md
+docs/03_eda/experiment_notes.md
+docs/04_research/research_notes_*.md
 notebooks/02_eda_and_data_contract.ipynb
 ```
 
@@ -887,8 +887,8 @@ Define first modeling experiment sequence.
 ### Outputs
 
 ```text
-docs/experiment_notes.md updated
-docs/submission_checklist.md updated
+docs/03_eda/experiment_notes.md updated
+docs/00_project_contract/submission_checklist.md updated
 logs/experiment_log.csv ready
 ```
 
@@ -920,10 +920,10 @@ Build the first reliable validation pipeline.
 Use compact notes first:
 
 ```text
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
-docs/research_notes_reproducibility.md
-docs/submission_checklist.md
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
+docs/04_research/research_notes_reproducibility.md
+docs/00_project_contract/submission_checklist.md
 ```
 
 Only read original books/papers if a precise implementation gap appears.
@@ -958,7 +958,7 @@ Register experiments.
 ```text
 notebooks/03_modeling_experiments.ipynb
 logs/experiment_log.csv updated
-docs/experiment_notes.md updated
+docs/03_eda/experiment_notes.md updated
 ```
 
 ### Exit criteria
@@ -988,9 +988,9 @@ Improve signal using only official internal data.
 Use compact notes first:
 
 ```text
-docs/research_notes_feature_engineering.md
-docs/research_notes_leakage.md
-docs/research_notes_validation.md
+docs/04_research/research_notes_feature_engineering.md
+docs/04_research/research_notes_leakage.md
+docs/04_research/research_notes_validation.md
 references/course_materials/slides/lec8_slides.pdf
 references/course_materials/readings/Lectura Feature Engineering.pdf
 ```
@@ -1033,7 +1033,7 @@ Document feature rationale.
 ### Outputs
 
 ```text
-feature block notes in docs/experiment_notes.md
+feature block notes in docs/03_eda/experiment_notes.md
 logs/experiment_log.csv updated
 outputs/figures/feature diagnostics if useful
 ```
@@ -1066,9 +1066,9 @@ Compare model families under the same validation strategy.
 Use compact notes first:
 
 ```text
-docs/research_notes_tabular_models.md
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
+docs/04_research/research_notes_tabular_models.md
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
 ```
 
 Candidate models:
@@ -1139,10 +1139,10 @@ Determine whether improvements are real and defensible.
 Use compact notes first:
 
 ```text
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
-docs/research_notes_reproducibility.md
-docs/experiment_notes.md
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
+docs/04_research/research_notes_reproducibility.md
+docs/03_eda/experiment_notes.md
 ```
 
 ### Codex skills/agents
@@ -1171,7 +1171,7 @@ Run ablations on top features.
 ### Outputs
 
 ```text
-docs/experiment_notes.md updated
+docs/03_eda/experiment_notes.md updated
 sanity check notes
 logs/experiment_log.csv updated
 ```
@@ -1203,10 +1203,10 @@ Improve strong candidates without overfitting.
 Use compact notes first:
 
 ```text
-docs/research_notes_hpo.md
-docs/research_notes_tabular_models.md
-docs/research_notes_validation.md
-docs/research_notes_leakage.md
+docs/04_research/research_notes_hpo.md
+docs/04_research/research_notes_tabular_models.md
+docs/04_research/research_notes_validation.md
+docs/04_research/research_notes_leakage.md
 ```
 
 ### Codex skills/agents
@@ -1235,7 +1235,7 @@ Create simple ensembles only if OOF predictions show useful diversity.
 ### Outputs
 
 ```text
-best parameter notes in docs/experiment_notes.md
+best parameter notes in docs/03_eda/experiment_notes.md
 candidate tuned submissions
 candidate ensemble submissions
 logs/experiment_log.csv updated
@@ -1271,8 +1271,8 @@ Use:
 ```text
 references/course_materials/tutorials/competition_tutorial.pdf
 references/course_materials/qa/QA.pdf
-docs/submission_checklist.md
-docs/experiment_notes.md
+docs/00_project_contract/submission_checklist.md
+docs/03_eda/experiment_notes.md
 logs/experiment_log.csv
 ```
 
@@ -1312,7 +1312,7 @@ Review no secrets/private paths.
 notebooks/99_final_submission.ipynb
 outputs/submissions/final_submission.csv
 README.md updated
-docs/submission_checklist.md completed
+docs/00_project_contract/submission_checklist.md completed
 logs/experiment_log.csv final
 ```
 
