@@ -4,7 +4,7 @@
 **Experiment under review:** `phase6_rf_sanity_baseline_v1`
 **Phase:** Phase 6 — Validation harness review and acceptance
 **Date drafted:** 2026-06-11
-**Status:** Review drafted — **not yet accepted** (awaiting human sign-off in Section 15).
+**Status:** Review drafted — **accepted with warnings** (awaiting human sign-off in Section 15).
 
 ---
 
@@ -241,7 +241,7 @@ Selective commit authorized (list files):
   - outputs/reports/phase6_rf_sanity_baseline_v1_validation_report.md
   - outputs/reports/phase6_rf_sanity_baseline_v1_experiment_log_candidate.csv
   - docs/06_validation/phase6_acceptance.md
-Recorded commit hash (after commit): Pending — fill after commit
+Recorded commit hash (after commit): d3b0aed
 
 Reviewer name: Jonatan Estiven Sanchez Vargas
 Date: 2026-06-11
