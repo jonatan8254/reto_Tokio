@@ -1,0 +1,6 @@
+tier,description,match_key,eligible_rows,n_clusters,n_rows_in_clusters,pct_train,fold_spanning_rows,pct_fold_spanning,same_year_rows,cross_year_rows
+T1_loose,"Original coarse heuristic (Height~0.1, Weight~1)",School + Position + Player_Type + Position_Type + Height_r1 + Weight_r0,2781,119,252,0.0906,220,0.0791,8,244
+T2_exact_build,Exact full-precision Height + Weight,School + Position + Height + Weight,2781,23,47,0.0169,41,0.0147,6,41
+T3_build_age,T2 + exact Age (Age present only),School + Position + Height + Weight + Age,2346,8,16,0.0058,16,0.0058,0,16
+T4_full_signature,School + Position + all 9 measurements + identical missingness pattern,School + Position + Height + Weight + Age + Sprint_40yd + Vertical_Jump + Bench_Press_Reps + Broad_Jump + Agility_3cone + Shuttle,2781,0,0,0.0,0,0.0,0,0
+T4b_full_sig_no_school,Full measurement signature ignoring School (catches transfers/typos),Position + Height + Weight + Age + Sprint_40yd + Vertical_Jump + Bench_Press_Reps + Broad_Jump + Agility_3cone + Shuttle,2781,0,0,0.0,0,0.0,0,0
