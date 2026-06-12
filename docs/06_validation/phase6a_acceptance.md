@@ -162,4 +162,4 @@ Do not start Phase 7 from this document alone.
 **Decision:** ACCEPT PHASE 6A WITH WARNINGS
 **Review status:** Reviewed and accepted for Phase 6A closure
 **Date:** 2026-06-11
-**Acceptance commit hash:** Pending - fill after commit
+**Acceptance commit hash:** f1fb717
