@@ -6,6 +6,10 @@ Experiment ID: `phase7_missingness_availability_v1`
 
 Planning package commit: `8b21db5`
 
+Selective closure commit: `42ef12a`
+
+Hash-record status: recorded after selective Phase 7 / Phase 7B closure commit.
+
 Audit status: independent artifact audit passed with non-blocking warnings.
 
 This document is a draft acceptance record for user/project director review. It is not signed acceptance, does not open Phase 8, and does not authorize staging or commit by itself.

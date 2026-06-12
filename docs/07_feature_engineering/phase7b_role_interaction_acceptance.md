@@ -8,6 +8,10 @@ Run ID: `phase7b_f4_single_probe_20260612`
 
 Starting commit: `8b21db5`
 
+Selective closure commit: `42ef12a`
+
+Hash-record status: recorded after selective Phase 7 / Phase 7B closure commit.
+
 This document is a draft acceptance record for user/project director review. It does not sign on behalf of the user/project director, does not authorize staging or commit, and does not open Phase 8.
 
 ## A. Executive Conclusion
