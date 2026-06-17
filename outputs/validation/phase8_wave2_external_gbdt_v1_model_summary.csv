@@ -1,0 +1,4 @@
+model_key,run_status,oof_auc,delta_vs_m0,delta_vs_m1,fold_auc_mean,fold_auc_std,same_sign_positive_folds_vs_m0,same_sign_positive_folds_vs_m1,slice_guard_triggered,classification,notes
+xgboost,completed,0.8113477083751576,-0.0003025518704906638,-0.015734398588129084,0.811975414606499,0.02422799473420046,1,1,True,no_qualifying_evidence,No winner declared; classification is evidence only.
+lightgbm,completed,0.8062204891415921,-0.00542977110405618,-0.0208616178216946,0.8065149577481392,0.022354359986600295,1,0,True,no_qualifying_evidence,No winner declared; classification is evidence only.
+catboost,completed,0.8202943968641223,0.008644136618474074,-0.006787710099164346,0.8214672549892178,0.022969379744692993,4,2,True,escalated,No winner declared; classification is evidence only.

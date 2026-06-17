@@ -1,0 +1,7 @@
+package,required_version,installed_version,import_status,install_status,required,notes
+numpy,2.4.6,2.4.6,ok,ok,yes,
+pandas,3.0.3,3.0.3,ok,ok,yes,
+sklearn,1.9.0,1.9.0,ok,ok,yes,
+xgboost,3.2.0,3.2.0,ok,ok,yes,
+lightgbm,4.6.0,4.6.0,ok,ok,yes,
+catboost,1.2.10,1.2.10,ok,ok,conditional,CatBoost omitted if gate/import fails.
