@@ -1,0 +1,6 @@
+experiment_id,model_key,accepted_auc,recomputed_auc,abs_diff,tolerance,status
+phase9a_auc_ranking_diagnostics_v1,m0_random_forest_frozen,0.8116502602456482,0.8116502602456482,0.0,1e-09,PASS
+phase9a_auc_ranking_diagnostics_v1,m1_logistic_regression,0.8270821069632867,0.8270821069632867,0.0,1e-09,PASS
+phase9a_auc_ranking_diagnostics_v1,xgboost,0.8113477083751576,0.8113477083751576,0.0,1e-09,PASS
+phase9a_auc_ranking_diagnostics_v1,lightgbm,0.8062204891415921,0.8062204891415921,0.0,1e-09,PASS
+phase9a_auc_ranking_diagnostics_v1,catboost,0.8202943968641223,0.8202943968641223,0.0,1e-09,PASS

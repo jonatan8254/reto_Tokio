@@ -1,0 +1,6 @@
+experiment_id,model_key,path,schema_ok,row_count,row_count_ok,duplicate_id_fold_count,duplicate_id_count,finite_probs,probs_in_range,no_nan,fold_labels_ok,fold_alignment_mismatches,anchor_fold_mismatches,anchor_target_mismatches,one_class_folds,positive_count,negative_count,positive_rate,passed
+phase9a_auc_ranking_diagnostics_v1,m0_random_forest_frozen,outputs\oof\phase8_model_family_comparison_v1_m0_random_forest_frozen_oof_predictions.csv,True,2781,True,0,0,True,True,True,True,0,0,0,,1803,978,0.6483279395900755,True
+phase9a_auc_ranking_diagnostics_v1,m1_logistic_regression,outputs\oof\phase8_model_family_comparison_v1_m1_logistic_regression_oof_predictions.csv,True,2781,True,0,0,True,True,True,True,0,0,0,,1803,978,0.6483279395900755,True
+phase9a_auc_ranking_diagnostics_v1,xgboost,outputs\oof\phase8_wave2_external_gbdt_v1_xgboost_oof_predictions.csv,True,2781,True,0,0,True,True,True,True,0,0,0,,1803,978,0.6483279395900755,True
+phase9a_auc_ranking_diagnostics_v1,lightgbm,outputs\oof\phase8_wave2_external_gbdt_v1_lightgbm_oof_predictions.csv,True,2781,True,0,0,True,True,True,True,0,0,0,,1803,978,0.6483279395900755,True
+phase9a_auc_ranking_diagnostics_v1,catboost,outputs\oof\phase8_wave2_external_gbdt_v1_catboost_oof_predictions.csv,True,2781,True,0,0,True,True,True,True,0,0,0,,1803,978,0.6483279395900755,True
