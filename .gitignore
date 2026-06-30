@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -16,18 +16,29 @@ __pycache__/
 *.pem
 *.token
 
-# Official competition data
+# Local assistant and notes
+.claude/
+.obsidian/
+CLAUDE.md
+Libros/
+Prompts/
+Recapitulaciones/
+*.canvas
+
+# Official competition data and source files
 competition.zip
 *.zip
-data/input/*.csv
+*.pdf
+*.epub
+*.ppt
+*.pptx
+**/data/input/*.csv
 
-# Outputs
-outputs/submissions/*.csv
-outputs/figures/*
+# Outputs and generated artifacts
+outputs/
+**/outputs/
 
 # Local references
-references/**/*.pdf
-references/**/*.pptx
 references/**/*.txt
 
 # OS

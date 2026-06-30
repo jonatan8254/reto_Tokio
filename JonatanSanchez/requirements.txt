@@ -1,0 +1,16 @@
+# Reto Tokio / GCI World NFL Draft Prediction — minimal runtime dependencies
+# The notebook 99_final_integrated_project_report.ipynb runs end to end with only these three.
+# Versions are given as conservative lower bounds; the notebook was verified with the
+# pinned versions shown in the trailing comments.
+
+pandas>=2.0          # verified with 3.0.3
+numpy>=1.24          # verified with 2.4.6
+scikit-learn>=1.3    # verified with 1.9.0
+
+# Optional — only used if present. The notebook falls back cleanly to the
+# logistic-regression candidate when CatBoost is not installed.
+#   catboost>=1.2     # the tuned candidate was produced with catboost 1.2.10
+#   matplotlib>=3.7   # only for the optional exploratory figures; verified with 3.10.9
+
+# Intentionally NOT required (dropped or diagnostic models; must not gate execution):
+#   xgboost, lightgbm, scipy, optuna
